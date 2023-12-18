@@ -6,7 +6,7 @@ async function main() {
 
   await quantumFlareToken.waitForDeployment();
 
-  console.log("QuantumFlare Token deployed: ", quantumFlareToken.target);
+  console.log("QuantumFlare Token deployed: ", quantumFlareToken.targetf);
 }
 
 main().catch((error) => {
